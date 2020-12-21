@@ -1,3 +1,3 @@
 def oxford_comma(array)
-  array[0, 2]
+  array.drop(-2)
 end
