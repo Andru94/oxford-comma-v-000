@@ -1,4 +1,3 @@
 def oxford_comma(array)
-  len()
-  array.slice!(1, len-1)
+  array[0, -1]
 end
